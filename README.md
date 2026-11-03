@@ -115,7 +115,7 @@ A documentação interativa fica disponível em `/api/docs` (Swagger UI) com o s
 
 1. **Clone o repositório:**
    ```bash
-   git clone https://github.com/mvictorliberato-maker/cogmo-hidro-api.git
+   git clone https://github.com/cogmo-hidro-api/cogmo-hidro-api.git
    cd cogmo-hidro-api
    ```
 2. **Instale as dependências** (Node.js 20 ou superior):
