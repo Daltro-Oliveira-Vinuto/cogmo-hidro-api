@@ -50,9 +50,10 @@ Também oferece autenticação JWT para proteger as rotas de escrita.
 | Pacote | Versão | Descrição |
 | --- | --- | --- |
 | express | ^5 | Servidor HTTP e rotas |
-| better-sqlite3 | ^13 | Acesso ao banco SQLite |
+| pg| ^13 | Acesso ao banco Postgres |
 | jsonwebtoken | ^9 | Geração e validação de tokens JWT |
 | bcryptjs | ^3 | Hash de senhas |
+| sequelize | 6 | Responsável pelo ORM | 
 | dotenv | ^18 | Variáveis de ambiente |
 | cors | ^2 | Liberação de acesso para o frontend local |
 | swagger-ui-express | ^5 | Documentação interativa da API |
