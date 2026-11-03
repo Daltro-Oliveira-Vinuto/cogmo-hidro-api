@@ -12,13 +12,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mvictorliberato-maker/cogmo-hidro-api.git"
+    "url": "git+https://github.com/cogmo-hidro-api/cogmo-hidro-api.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mvictorliberato-maker/cogmo-hidro-api/issues"
+    "url": "https://github.com/cogmo-hidro-api/cogmo-hidro-api/issues"
   },
-  "homepage": "https://github.com/mvictorliberato-maker/cogmo-hidro-api#readme",
+  "homepage": "https://github.com/cogmo-hidro-api/cogmo-hidro-api#readme",
   "dependencies": {
     "bcryptjs": "^3.0.3",
     "better-sqlite3": "^13.0.3",
