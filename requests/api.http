@@ -1,0 +1,28 @@
+### Chamadas de teste (VS Code + extensão REST Client: clique em "Send Request")
+@base = http://localhost:3000
+
+### Health check
+GET {{base}}/api/health
+
+### --- Contrato Cogmo (ativar conforme as rotas ficarem prontas) ---
+
+### Listar estações
+# GET {{base}}/api/stations
+
+### Resumo da estação 1
+# GET {{base}}/api/stations/1/summary
+
+### Série de nível, 24 h
+# GET {{base}}/api/stations/1/series?metric=level&hours=24
+
+### Série de chuva, 24 h
+# GET {{base}}/api/stations/1/series?metric=rain&hours=24
+
+### Erro esperado: métrica inválida (400)
+# GET {{base}}/api/stations/1/series?metric=temp&hours=24
+
+### Erro esperado: horas fora da faixa (400)
+# GET {{base}}/api/stations/1/series?metric=level&hours=73
+
+### Erro esperado: estação inexistente (404)
+# GET {{base}}/api/stations/999/summary
